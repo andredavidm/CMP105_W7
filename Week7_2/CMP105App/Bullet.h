@@ -10,4 +10,6 @@ public:
 
 	void update(float dt);
 
+	GameObject bullet;
+	sf::Vector2f speed;
 };
