@@ -38,7 +38,7 @@ void Level::render()
 // Begins rendering to the back buffer. Background colour set to light blue.
 void Level::beginDraw()
 {
-	window->clear(sf::Color(100, 149, 237));
+	window->clear(sf::Color::Black);
 }
 
 // Ends rendering to the back buffer, and swaps buffer to the screen.
