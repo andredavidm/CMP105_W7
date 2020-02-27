@@ -18,6 +18,7 @@ Enemy::~Enemy()
 void Enemy::update(float dt)
 {
 	elapsedTime += dt;
+	
 	if (elapsedTime > THESHOLD)
 	{
 		elapsedTime = 0.f;
