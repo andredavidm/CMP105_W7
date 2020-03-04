@@ -21,4 +21,5 @@ void Companion::update(float dt)
 void Companion::moveToPlayer(Player* p)
 {
 	setPosition(p->getPosition());
+	
 }
